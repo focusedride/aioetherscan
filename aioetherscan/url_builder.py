@@ -10,6 +10,7 @@ class UrlBuilder:
         'optimism': ('etherscan.io', 'ETH'),
         'arbitrum': ('arbiscan.io', 'ETH'),
         'fantom': ('ftmscan.com', 'FTM'),
+        'base': ('basescan.org', 'ETH'),
     }
 
     BASE_URL: str = None
